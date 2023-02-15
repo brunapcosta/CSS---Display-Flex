@@ -1,0 +1,70 @@
+<!-- 
+                                                DISPLAY FLEX
+
+MAIN AXIS: eixo principal.
+CROSS AXIS: eixo secundário.
+                                                
+=> FLEX-DIRECTION(CONTAINER):
+
+→ row(linha): geralmente o padrão, os itens ficam em linha.
+→ colunn(coluna): organiza os itens em colunas;
+→ row-reverse: organiza os itens em linha, do último ao primeiro;
+→ colunn-reverse: organiza os itens em colunas, do último ao primeiro;
+
+=> FLEX-WRAP(CONTAINER):
+
+→ nowrap: sem quebra de linha;
+→ wrap: há uma quebra de linha, patra não alterar o tamanho do que está dentro do container;
+→ wrap-reverse: quebra a linha mas inverte a ordem dos itens.
+
+=> FLEX-FLOW(CONTAINER):
+É uma forma mais fácil e rápida de adionar os dois primeiros modos.
+
+→ row nowrap;
+→ row wrap;
+→ column nowrap.
+
+=> JUSTIFY-CONTENT(CONTAINER):
+
+→ flex-start: alinha os itens ao inicio da página, em relação ao eixo principal;
+→ flex-end: alinha os itens no final da página, em relação ao eixo principal;
+→ center: alinha os itens no centro da página, em relação ao eixo principal;
+→ space-between: cria um espaço entre os itens;
+→ space-around: cria um espaço em volta de cada item.
+
+=> ALIGN-ITEMS(CONTAINER):
+
+→ flex-start: alinha os itens ao inicio da página, em relação ao eixo secundário;
+→ flex-end: alinha os itens no final da página, em relação ao eixo secundário;
+→ center: alinha os itens no centro da página, em relação ao eixo secundário;
+→ stretch: alinha os itens para ocupar toda linha ou coluna, em relação ao eixo secundário;
+
+=> ALIGN-CONTENT(CONTAINER):
+
+→ flex-start: junta e alinha os itens ao inicio da página, em relação ao eixo principal;
+→ flex-end: junta e alinha os itens no final da página, em relação ao eixo principal;
+→ center: junta e alinha os itens no centro da página, em relação ao eixo principal;
+→ space-between: cria um espaço entre os itens;
+→ space-around: cria um espaço em volta de cada item.
+→ stretch: alinha os itens para ocupar toda linha ou coluna, em relação ao eixo secundário;
+
+=> GAP(CONTAINER):
+Cria espaço entre os itens.
+
+=> FLEX-BASIS(ITEMS): delimita o tamanho da base dos itens.
+
+=> FLEX-GROW(ITEMS): é a capacidade do item de crescer no espaço vago, podendo um item crescer mais que outro se assim for configurado.
+
+=> FLEX-SHRINK(ITEMS): é a capacidade do item de encolher, podendo um item encolher mais que outro se assim for configurado.
+
+=> FLEX(ITEMS): é um atalho para as tres propriedades acima.
+    Ex: flex: flex-basis → flex-grow → flex-shrink;
+
+=> ORDER(ITEMS): ajuda a inverter a ordem dos itens, como foi configurado.
+    Ex: 1, 2, 3, 4 → 2, 4, 1, 3
+
+=> ALIGN SELF(ITEMS): alinha apenas um intem.
+
+ORIGAMID: site de consulta para comandos do display-flex.
+
+-->
